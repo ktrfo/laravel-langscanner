@@ -2,8 +2,8 @@
 
 namespace Ktr\Langscanner;
 
-use Ktr\Langscanner\Contracts\FileTranslations;
 use Illuminate\Support\Collection;
+use Ktr\Langscanner\Contracts\FileTranslations;
 
 class MissingTranslations
 {

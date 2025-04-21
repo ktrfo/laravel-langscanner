@@ -2,13 +2,13 @@
 
 namespace Ktr\Langscanner\Commands;
 
+use Illuminate\Console\Command;
+use Illuminate\Filesystem\Filesystem;
 use Ktr\Langscanner\CachedFileTranslations;
 use Ktr\Langscanner\FileTranslations;
 use Ktr\Langscanner\Languages;
 use Ktr\Langscanner\MissingTranslations;
 use Ktr\Langscanner\RequiredTranslations;
-use Illuminate\Console\Command;
-use Illuminate\Filesystem\Filesystem;
 
 class LangscannerCommand extends Command
 {

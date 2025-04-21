@@ -2,8 +2,8 @@
 
 namespace Ktr\Langscanner\Tests;
 
-use Ktr\Langscanner\Languages;
 use Illuminate\Filesystem\Filesystem;
+use Ktr\Langscanner\Languages;
 
 class LanguagesTest extends TestCase
 {

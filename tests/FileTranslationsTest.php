@@ -2,8 +2,8 @@
 
 namespace Ktr\Langscanner\Tests;
 
-use Ktr\Langscanner\FileTranslations;
 use Illuminate\Filesystem\Filesystem;
+use Ktr\Langscanner\FileTranslations;
 
 class FileTranslationsTest extends TestCase
 {
