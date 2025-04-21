@@ -1,0 +1,54 @@
+{
+    "name": "ktr/laravel-langscanner",
+    "description": "Scan missing language translations.",
+    "keywords": [
+        "ktr",
+        "laravel-langscanner"
+    ],
+    "homepage": "https://github.com/ktrfo/laravel-langscanner",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ktr",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "spatie/laravel-package-tools": "^1.11.3",
+        "illuminate/contracts": "^9.0|^10.0|^11.0|^12.0",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.3",
+        "nunomaduro/collision": "^6.2",
+        "orchestra/testbench": "^7.02|^9.0|^10.0",
+        "phpunit/phpunit": "^9.5|^10.1|^11.5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ktr\\Langscanner\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ktr\\Langscanner\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "./vendor/bin/testbench package:test",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ktr\\Langscanner\\LangscannerServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

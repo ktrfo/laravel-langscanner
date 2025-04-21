@@ -1,0 +1,2 @@
+providers:
+  - Ktr\Langscanner\LangscannerServiceProvider
